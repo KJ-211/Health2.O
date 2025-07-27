@@ -1,0 +1,109 @@
+:root {
+  --main-color: #7fb77e;
+  --accent-color: #ffb6b9;
+  --bg-color: #f9f9f9;
+  --text-color: #333;
+  --font: 'Segoe UI', sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  margin: 0;
+  background: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+header {
+  background: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.hero {
+  background: var(--main-color);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta-button {
+  background: white;
+  color: var(--main-color);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 250px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  background: var(--main-color);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+blockquote {
+  font-style: italic;
+  background: #fff;
+  border-left: 4px solid var(--accent-color);
+  margin: 20px 0;
+  padding: 10px 20px;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
