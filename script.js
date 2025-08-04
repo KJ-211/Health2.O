@@ -2,7 +2,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   const cards = document.querySelectorAll(".card h4");
   const formBaseURL = "https://docs.google.com/forms/d/e/1FAIpQLSfHCJacbHbZ0TDgQx6xGXc1haJQxggLaA7FpWpsm3OKWQdGuQ/viewform";
-  const entryID = "entry.1987654321"; // Replace with your actual entry ID
+  const entryID = "entry.1902269632"; // Replace with your actual entry ID
+  // entry.1902269632=Hello
 
   cards.forEach(card => {
     card.style.cursor = "pointer";
